@@ -11,6 +11,9 @@
 *.userprefs
 
 # Build results
+bin/
+obj/
+task_DEV-1/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/

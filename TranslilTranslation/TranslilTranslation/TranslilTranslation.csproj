@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C1B3FE1E-91BC-4185-9D5A-D2C83DF8A05A}</ProjectGuid>
+    <ProjectGuid>{80EC5F23-AF0F-4BF9-9D15-4453D8F67B69}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OwnStack</RootNamespace>
-    <AssemblyName>OwnStack</AssemblyName>
+    <RootNamespace>TranslilTranslation</RootNamespace>
+    <AssemblyName>TranslilTranslation</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IntStack.cs" />
-    <Compile Include="OwnStack.cs" />
+    <Compile Include="Translator.cs" />
+    <Compile Include="TranslitTranslation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
