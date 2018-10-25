@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("TranslilTranslation")]
+[assembly: AssemblyTitle("NumberSystemTrans")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TranslilTranslation")]
+[assembly: AssemblyProduct("NumberSystemTrans")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("80ec5f23-af0f-4bf9-9d15-4453d8f67b69")]
+[assembly: Guid("a6fa359e-6326-4c5c-9651-ca9b60e605d9")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

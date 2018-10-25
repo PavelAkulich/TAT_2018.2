@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{80EC5F23-AF0F-4BF9-9D15-4453D8F67B69}</ProjectGuid>
+    <ProjectGuid>{A6FA359E-6326-4C5C-9651-CA9B60E605D9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TranslilTranslation</RootNamespace>
-    <AssemblyName>TranslilTranslation</AssemblyName>
+    <RootNamespace>NumberSystemTrans</RootNamespace>
+    <AssemblyName>NumberSystemTrans</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Translator.cs" />
-    <Compile Include="TranslitTranslation.cs" />
+    <Compile Include="SystemTranslator.cs" />
+    <Compile Include="NumberSystemTrans.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
