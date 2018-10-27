@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A6FA359E-6326-4C5C-9651-CA9B60E605D9}</ProjectGuid>
+    <ProjectGuid>{600989AE-7984-48A3-AED5-1A5283F5F5A7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NumberSystemTrans</RootNamespace>
-    <AssemblyName>NumberSystemTrans</AssemblyName>
+    <RootNamespace>CarSearchList</RootNamespace>
+    <AssemblyName>CarSearchList</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SystemTranslator.cs" />
-    <Compile Include="NumberSystemTrans.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="CarSearchList.cs" />
+    <Compile Include="MyList.cs" />
+    <Compile Include="Node.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

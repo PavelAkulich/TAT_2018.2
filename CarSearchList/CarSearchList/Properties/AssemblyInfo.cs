@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("NumberSystemTrans")]
+[assembly: AssemblyTitle("CarSearchList")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NumberSystemTrans")]
+[assembly: AssemblyProduct("CarSearchList")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("a6fa359e-6326-4c5c-9651-ca9b60e605d9")]
+[assembly: Guid("600989ae-7984-48a3-aed5-1a5283f5f5a7")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //
