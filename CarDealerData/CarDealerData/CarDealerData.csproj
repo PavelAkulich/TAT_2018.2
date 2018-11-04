@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{600989AE-7984-48A3-AED5-1A5283F5F5A7}</ProjectGuid>
+    <ProjectGuid>{82209502-8699-4AC5-BFB8-36B0F7BCCC3B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CarSearchList</RootNamespace>
-    <AssemblyName>CarSearchList</AssemblyName>
+    <RootNamespace>CarDealerData</RootNamespace>
+    <AssemblyName>CarDealerData</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,9 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
-    <Compile Include="CarSearchList.cs" />
-    <Compile Include="MyList.cs" />
-    <Compile Include="Node.cs" />
+    <Compile Include="CarData.cs" />
+    <Compile Include="CarDataCommands.cs" />
+    <Compile Include="CarDealerData.cs" />
+    <Compile Include="CommandChecker.cs" />
+    <Compile Include="DataRequest.cs" />
+    <Compile Include="ICommandToData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
